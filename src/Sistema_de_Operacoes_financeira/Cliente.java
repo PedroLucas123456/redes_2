@@ -13,7 +13,7 @@ import java.net.*;
 
 public class Cliente {
     public static void main(String[] args) {
-        String host = "localhost"; // Altere para o IP do servidor se necessário
+        String host = "192.168.0.1"; // Altere para o IP do servidor se necessário
         int porta = 12345; // Porta padrão
 
         try (Socket socket = new Socket(host, porta);
